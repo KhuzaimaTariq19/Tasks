@@ -1,0 +1,72 @@
+body{
+
+    background-color: rgb(15, 16, 16);
+}
+
+.tasksbody {
+    margin: 0;
+    background-color: #f7f5f5;
+    font-family: Arial, sans-serif;
+     /* background: #020024; 
+     background: linear-gradient(323deg, rgba(2, 0, 36, 1) 0%, rgba(4, 2, 59, 1) 0%, rgba(9, 9, 121, 1) 37%, rgba(0, 212, 255, 1) 100%);
+ */}
+
+.mainbox{
+    width: 70%;
+    margin: 50px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.30);
+    justify-content: center;
+}
+a {
+  padding: 20px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: 220px;
+    border: none;
+    justify-content: center;
+    background: linear-gradient(135deg,#025c6c, #0a0a0a);
+  width: 40%;
+    border-radius: 35px;
+    font-weight: bold;
+    font-size: 40px;
+    height: 70px;
+    text-align: center;
+    padding-top: 18px;
+    text-shadow: 1px 1px white;
+
+    color: aliceblue;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.task1, .task2{ 
+     padding: 20px; 
+     border-radius: 15px; 
+     color: white;
+}
+
+.task1{
+    background: linear-gradient(135deg,#025c6c, #0a0a0a,#025c6c);
+}
+
+.task2{
+    background: linear-gradient(135deg,#025c6c, #030303,#025c6c);
+}
+
+h3{
+    margin-top: 0;
+    font-size: 20px;
+}
