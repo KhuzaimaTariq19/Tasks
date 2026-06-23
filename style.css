@@ -1,46 +1,56 @@
-body{
 
-    background-color: rgb(15, 16, 16);
-}
 
 .tasksbody {
-    margin: 0;
+    margin: 0 auto;
     background-color: #f7f5f5;
     font-family: Arial, sans-serif;
+
      /* background: #020024; 
      background: linear-gradient(323deg, rgba(2, 0, 36, 1) 0%, rgba(4, 2, 59, 1) 0%, rgba(9, 9, 121, 1) 37%, rgba(0, 212, 255, 1) 100%);
  */}
 
 .mainbox{
-    width: 70%;
+     max-width: 600px;
+     min-width: 300px;
+
     margin: 50px auto;
     padding: 25px;
     background: white;
     border-radius: 20px;
     box-shadow: 0 12px 35px rgba(0,0,0,0.30);
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+
 }
 a {
-  padding: 20px;
+  padding: 10px;
     border-radius: 15px;
     color: white;
     text-decoration: none;
     border-radius: 15px;
 }
-h1{
+.mainbox>h1 {
     text-align: center;
-    margin-bottom: 25px;
-    margin-left: 220px;
+    /* margin-bottom: 15px;
+    margin-left: 220px; */
+    margin: auto;
+    margin-bottom: 10px;
     border: none;
     justify-content: center;
     background: linear-gradient(135deg,#025c6c, #0a0a0a);
-  width: 40%;
-    border-radius: 35px;
+  min-width: none;
+  padding: 5px 10px 10px 5px;
+  
+  max-width: 40%;
+    border-radius: 25px;
     font-weight: bold;
-    font-size: 40px;
-    height: 70px;
+    font-size: 20px;
+   min-height: 30px;
+   max-height: 60px;
     text-align: center;
-    padding-top: 18px;
+    padding-top: 10px;
     text-shadow: 1px 1px white;
 
     color: aliceblue;
@@ -49,13 +59,17 @@ h1{
 .box{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .task1, .task2{ 
-     padding: 20px; 
-     border-radius: 15px; 
+     padding: 12px; 
+     border-radius: 25px; 
      color: white;
+     min-width: 300px;
+     max-width: 100%;
+     min-height: 50px;
+     max-height: 90px;
 }
 
 .task1{

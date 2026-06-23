@@ -65,16 +65,27 @@ div h5 {
     transform: translateY(-8px);
 }
 
-a button{
+.buttondiv {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
     border: none;
-    border-radius: 15px;
+   
+ 
+ 
+
+}
+
+a{
+    padding: 12px 12px;
+    border: none;
+    cursor: pointer;
+     border-radius: 15px;
     background: linear-gradient(135deg,#025c6c, #0a0a0a);
     width: 190px;
   font-size: 18px;
   font-weight: bold;
   color: aliceblue;
-  height: 35px;
-  margin-top: 180px;
-  margin-left:950px;
-
+  text-decoration: none;
+  text-align: center;
 }
